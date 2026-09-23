@@ -1,0 +1,14 @@
+{
+  "extends": "default.json",
+  "title": "Harvard Resume",
+  "page": {
+    "format": "A4",
+    "margins": {
+      "left": "0.3in",
+      "right": "0.2in",
+      "top": "0.2in",
+      "bottom": "0.2in"
+    },
+    "printBackground": true
+  }
+}

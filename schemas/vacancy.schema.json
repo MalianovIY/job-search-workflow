@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "vacancy_id",
+    "company",
+    "title",
+    "location",
+    "work_mode",
+    "employment_type",
+    "language",
+    "source_url",
+    "found_at",
+    "status_checked_at",
+    "description_markdown",
+    "responsibilities",
+    "must_have",
+    "nice_to_have",
+    "hard_requirements",
+    "cover_letter_requirement",
+    "salary",
+    "visa_notes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "vacancy_id": {"type": "string"},
+    "company": {"type": "string"},
+    "title": {"type": "string"},
+    "location": {"type": "string"},
+    "work_mode": {"type": "string"},
+    "employment_type": {"type": "string"},
+    "language": {"type": "string"},
+    "source_url": {"type": "string"},
+    "found_at": {"type": "string"},
+    "status_checked_at": {"type": "string"},
+    "description_markdown": {"type": "string"},
+    "responsibilities": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "must_have": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "nice_to_have": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "hard_requirements": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "cover_letter_requirement": {
+      "enum": ["required", "optional", "not-mentioned"]
+    },
+    "salary": {"type": "string"},
+    "visa_notes": {"type": "string"}
+  }
+}
+

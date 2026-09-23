@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["query", "searched_at", "vacancies"],
+  "additionalProperties": false,
+  "properties": {
+    "query": {"type": "string"},
+    "searched_at": {"type": "string"},
+    "vacancies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "company",
+          "title",
+          "location",
+          "work_mode",
+          "source_url",
+          "status",
+          "checked_at",
+          "description_markdown",
+          "cover_letter_requirement"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "company": {"type": "string"},
+          "title": {"type": "string"},
+          "location": {"type": "string"},
+          "work_mode": {"type": "string"},
+          "source_url": {"type": "string"},
+          "status": {"enum": ["active", "uncertain"]},
+          "checked_at": {"type": "string"},
+          "description_markdown": {"type": "string"},
+          "cover_letter_requirement": {
+            "enum": ["required", "optional", "not-mentioned"]
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "description": "Fictional demonstration only. Replace with private, candidate-specific rules before use.",
+  "prohibited_patterns": [
+    {
+      "id": "example-internal-volume",
+      "pattern": "\\b23 support requests\\b"
+    }
+  ]
+}

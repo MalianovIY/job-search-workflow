@@ -1,0 +1,43 @@
+{
+  "extends": "_web-base.json",
+  "title": "Dark Terminal",
+  "page": {
+    "format": "A4",
+    "margins": {
+      "left": "0.3in",
+      "right": "0.2in",
+      "top": "0.2in",
+      "bottom": "0.2in"
+    }
+  },
+  "styles": {
+    "general": {
+      "fontFamily": "'Courier New', monospace",
+      "baseFontSize": 14,
+      "color": "#00ff00",
+      "backgroundColor": "#000000",
+      "maxWidth": "1000px"
+    },
+    "h1": {
+      "color": "#00ff00",
+      "borderBottom": "1px dashed #00ff00",
+      "fontSize": "2em"
+    },
+    "h2": {
+      "color": "#00ff00",
+      "borderBottom": "none",
+      "fontSize": "1.6em"
+    },
+    "codeBlock": {
+      "backgroundColor": "#111111",
+      "color": "#00ff00",
+      "borderRadius": "0",
+      "padding": "10px"
+    },
+    "blockquote": {
+      "color": "#00cc00",
+      "borderLeft": "4px solid #00ff00",
+      "backgroundColor": "#111111"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "extends": "default.json",
+  "title": "Compatibility alias - use default.json for resume rendering",
+  "language": "en"
+}

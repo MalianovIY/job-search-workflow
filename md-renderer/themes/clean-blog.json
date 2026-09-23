@@ -1,0 +1,46 @@
+{
+  "extends": "_web-base.json",
+  "title": "Clean Blog",
+  "page": {
+    "format": "A4",
+    "margins": {
+      "left": "0.3in",
+      "right": "0.2in",
+      "top": "0.2in",
+      "bottom": "0.2in"
+    }
+  },
+  "styles": {
+    "general": {
+      "fontFamily": "'Georgia', serif",
+      "baseFontSize": 18,
+      "lineHeight": 1.8,
+      "color": "#222222",
+      "maxWidth": "700px"
+    },
+    "h1": {
+      "fontFamily": "'Helvetica', sans-serif",
+      "fontWeight": 800,
+      "fontSize": "2.5em",
+      "letterSpacing": "-1px"
+    },
+    "h2": {
+      "fontFamily": "'Helvetica', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "2em"
+    },
+    "paragraph": {
+      "marginBottom": "1.5em"
+    },
+    "link": {
+      "color": "#d93f3f",
+      "textDecoration": "underline hover"
+    },
+    "blockquote": {
+      "fontStyle": "italic",
+      "borderLeft": "none",
+      "padding": "0 2em",
+      "color": "#666666"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name_en": "<CANDIDATE FIRST AND LAST NAME>",
+  "name_ru": "<ИМЯ И ФАМИЛИЯ КАНДИДАТА>",
+  "name_en_requires_confirmation": true,
+  "email": "<candidate_email>",
+  "telegram": "<telegram_url>",
+  "linkedin": "<linkedin_url>",
+  "gitlab": "<gitlab_url>",
+  "location": "<Location>",
+  "languages": {
+    "<Language 1>": "<Proficiency level 1>",
+    "<Language 2>": "<Proficiency level 2>"
+  },
+  "default_resume_language": "en"
+}

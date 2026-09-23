@@ -1,0 +1,48 @@
+{
+  "target_roles": [
+    "<Primary Target Role 1>",
+    "<Primary Target Role 2>",
+    "<Primary Target Role 3>"
+  ],
+  "secondary_roles": [
+    "<Secondary Role 1>",
+    "<Secondary Role 2>"
+  ],
+  "exclude_title_patterns": [],
+  "required_role_signals": [
+    "<Key skill / domain signal 1>",
+    "<Key skill / domain signal 2>",
+    "<Key skill / domain signal 3>"
+  ],
+  "preferred_locations": {
+    "relocation": [
+      "<Target Region / Country 1>",
+      "<Target Region / Country 2>"
+    ],
+    "remote": [
+      "<Remote work preference>"
+    ]
+  },
+  "candidate_constraints": {
+    "current_location": "<Candidate Current Location>",
+    "citizenship": "<Candidate Citizenship>",
+    "residence_status": "<Candidate Residence / Visa Status>",
+    "ready_work_visa": false,
+    "english": "<English Proficiency Level>",
+    "remote": true,
+    "relocation": true
+  },
+  "exclude_or_flag": [
+    "<Exclusion rule 1>",
+    "<Exclusion rule 2>",
+    "<Exclusion rule 3>",
+    "<Exclusion rule 4>"
+  ],
+  "search_rules": {
+    "prefer_official_company_pages": true,
+    "job_boards_are_lead_sources": true,
+    "require_full_description": true,
+    "require_active_status_check": true,
+    "max_age_days": 30
+  }
+}

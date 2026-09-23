@@ -1,0 +1,17 @@
+# Fact Audit Log Example
+
+This log tracks fact verification, evidence sources, and resolution of any conflicts across candidate career documents.
+
+## Audit Summary
+
+- Total Facts Tracked: <Total fact count>
+- Verified Facts: <Number of verified facts>
+- Unresolved Conflicts: <Number of pending conflicts / 0>
+
+## Fact Inventory
+
+| Fact ID | Category | Topic | Source Document | Status |
+|---|---|---|---|---|
+| <FACT-ID-1> | <Category 1> | <Topic 1> | `<source-document-path-1>` | <Verified / Needs Confirmation> |
+| <FACT-ID-2> | <Category 2> | <Topic 2> | `<source-document-path-2>` | <Verified / Needs Confirmation> |
+| <FACT-ID-3> | <Category 3> | <Topic 3> | `<source-document-path-3>` | <Verified / Needs Confirmation> |

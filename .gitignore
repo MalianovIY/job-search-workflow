@@ -1,0 +1,62 @@
+# User Profile & Sensitive Candidate Data
+.agents/
+.codex/
+config/candidate-profile.json
+config/public-disclosure.json
+config/search-profile.json
+master/master-cv-*.md
+!master/master-cv-*.example.md
+!master/master-cv-*.md.example
+master/facts.json
+!master/facts.json.example
+master/fact-audit.md
+!master/fact-audit.md.example
+master/sources/*
+!master/sources/.gitkeep
+
+# State & Runtime Data
+state/*
+!state/.gitkeep
+
+workspace/queue/*
+!workspace/queue/.gitkeep
+workspace/searches/*
+!workspace/searches/.gitkeep
+workspace/batches/*
+!workspace/batches/.gitkeep
+workspace/chrome-searches/*
+!workspace/chrome-searches/.gitkeep
+workspace/manual-imports/*
+!workspace/manual-imports/.gitkeep
+workspace/reprocess-skips/*
+!workspace/reprocess-skips/.gitkeep
+workspace/telegram-realtimejobsbot/*
+!workspace/telegram-realtimejobsbot/.gitkeep
+
+tmp/*
+!tmp/.gitkeep
+!tmp/pdfs/
+tmp/pdfs/*
+!tmp/pdfs/.gitkeep
+.tmp/
+.tmp-validate/
+
+# Workflow Output Results
+results/apply/*
+!results/apply/.gitkeep
+results/need-review/*
+!results/need-review/.gitkeep
+results/skip/*
+!results/skip/.gitkeep
+
+# Python / Environment Caches & Logs
+**/__pycache__/
+*.pyc
+.venv/
+.codex-validate-venv/
+*.log
+.env
+.env.*
+
+# OS Files
+.DS_Store

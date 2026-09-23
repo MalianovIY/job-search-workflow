@@ -1,0 +1,20 @@
+{
+  "model": "gpt-5.5",
+  "default_reasoning_effort": "medium",
+  "light_reasoning_effort": "medium",
+  "high_reasoning_effort": "high",
+  "ignore_user_config": true,
+  "disabled_features_for_local_stages": [
+    "plugins",
+    "apps",
+    "browser_use",
+    "in_app_browser",
+    "computer_use",
+    "image_generation",
+    "multi_agent"
+  ],
+  "auth": "ChatGPT",
+  "sandbox": "read-only",
+  "ephemeral": true,
+  "notes": "Pinned to GPT-5.5. Medium is used for routine pipeline stages; high is used for red-team and evidence validation."
+}

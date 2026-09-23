@@ -1,0 +1,151 @@
+{
+  "title": "Harvard Resume Default",
+  "language": "en",
+  "page": {
+    "format": "A4",
+    "margins": {
+      "left": "0.3in",
+      "right": "0.2in",
+      "top": "0.2in",
+      "bottom": "0.2in"
+    },
+    "printBackground": true
+  },
+  "styles": {
+    "general": {
+      "fontFamily": "'Times New Roman', Times, serif",
+      "baseFontSize": 12,
+      "lineHeight": 1.1,
+      "color": "#24292E",
+      "backgroundColor": "#FFFFFF",
+      "maxWidth": "100%",
+      "padding": "10px"
+    },
+    "h1": {
+      "fontFamily": "inherit",
+      "fontSize": "1.7em",
+      "color": "#000000",
+      "fontWeight": 700,
+      "borderBottom": "1px solid #000000",
+      "marginTop": "0",
+      "marginBottom": "0.3em"
+    },
+    "h2": {
+      "fontFamily": "inherit",
+      "fontSize": "1.3em",
+      "color": "#000000",
+      "fontWeight": 700,
+      "borderBottom": "1px solid #CCCCCC",
+      "marginTop": "0.6em",
+      "marginBottom": "0.3em"
+    },
+    "h3": {
+      "fontFamily": "inherit",
+      "fontSize": "1.1em",
+      "color": "#24292E",
+      "fontWeight": 700,
+      "marginTop": "10px",
+      "marginBottom": "8px"
+    },
+    "h4": {
+      "fontFamily": "inherit",
+      "fontSize": "1em",
+      "color": "#24292E",
+      "fontWeight": 600,
+      "marginTop": "10px",
+      "marginBottom": "8px"
+    },
+    "h5": {
+      "fontFamily": "inherit",
+      "fontSize": "1em",
+      "color": "#24292E",
+      "fontWeight": 600,
+      "marginTop": "10px",
+      "marginBottom": "8px"
+    },
+    "h6": {
+      "fontFamily": "inherit",
+      "fontSize": "1em",
+      "color": "#24292E",
+      "fontWeight": 600,
+      "marginTop": "10px",
+      "marginBottom": "8px"
+    },
+    "paragraph": {
+      "fontFamily": "inherit",
+      "marginTop": "0",
+      "marginBottom": "0em",
+      "lineHeight": 1.4
+    },
+    "blockquote": {
+      "fontFamily": "inherit",
+      "color": "#000000FF",
+      "borderLeft": ".25em solid #dfe2e5",
+      "padding": "0 1em",
+      "backgroundColor": "#FFFFFF00"
+    },
+    "codeInline": {
+      "fontFamily": "SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace",
+      "fontSize": "85%",
+      "backgroundColor": "#808080FF",
+      "color": "#FFFFFF00",
+      "padding": ".2em .4em",
+      "borderRadius": "3px"
+    },
+    "codeBlock": {
+      "fontFamily": "SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace",
+      "fontSize": "85%",
+      "lineHeight": 1.45,
+      "backgroundColor": "#00000000",
+      "padding": "16px",
+      "borderRadius": "3px"
+    },
+    "listUl": {
+      "fontFamily": "inherit",
+      "paddingLeft": "1.5em",
+      "marginTop": "0",
+      "marginBottom": "0.5em",
+      "listStyleType": "disc"
+    },
+    "listOl": {
+      "fontFamily": "inherit",
+      "paddingLeft": "2em",
+      "marginTop": "0",
+      "marginBottom": "8px",
+      "listStyleType": "decimal"
+    },
+    "li": {
+      "fontFamily": "inherit",
+      "marginTop": "0",
+      "marginBottom": "0",
+      "lineHeight": 1.1
+    },
+    "link": {
+      "fontFamily": "inherit",
+      "color": "#0366D6",
+      "textDecoration": "none"
+    },
+    "hr": {
+      "height": "1px",
+      "margin": "5px 0",
+      "backgroundColor": "#FFFFFF",
+      "border": "0"
+    },
+    "table": {
+      "fontFamily": "inherit",
+      "width": "100%",
+      "borderCollapse": "collapse",
+      "marginBottom": "16px"
+    },
+    "tableCell": {
+      "fontFamily": "inherit",
+      "padding": "6px 13px",
+      "border": "1px solid #dfe2e5"
+    },
+    "img": {
+      "maxWidth": "100%",
+      "backgroundColor": "#FFFFFF00"
+    }
+  },
+  "customCss": ".markdown-body > div:first-child p { margin-bottom: 0; } .markdown-body strong { font-weight: 700; } .markdown-body h3 { break-after: avoid; } .markdown-body h3 + p, .markdown-body h3 + ul { break-before: avoid; }"
+}

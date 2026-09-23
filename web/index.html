@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Job Search</h2>
+                <p>Workflow Dashboard</p>
+            </div>
+
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-category="all">
+                    <span class="icon">📊</span>
+                    <span>All Jobs</span>
+                    <span class="badge" id="count-all">0</span>
+                </button>
+                <button class="nav-item" data-category="apply">
+                    <span class="icon">✅</span>
+                    <span>Apply</span>
+                    <span class="badge badge-apply" id="count-apply">0</span>
+                </button>
+                <button class="nav-item" data-category="need-review">
+                    <span class="icon">👀</span>
+                    <span>Need Review</span>
+                    <span class="badge badge-review" id="count-review">0</span>
+                </button>
+                <button class="nav-item" data-category="skip">
+                    <span class="icon">🚫</span>
+                    <span>Skip</span>
+                    <span class="badge badge-skip" id="count-skip">0</span>
+                </button>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="main-header">
+                <h1 id="current-view-title">All Jobs</h1>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="Search jobs, companies...">
+                    </div>
+                </div>
+            </header>
+
+            <div class="table-container">
+                <table class="jobs-table" id="jobs-table">
+                    <thead>
+                        <tr>
+                            <th>Job Title & Source</th>
+                            <th>Company</th>
+                            <th class="sortable" data-sort="avg">Avg Match <span class="sort-icon"></span></th>
+                            <th class="sortable" data-sort="red">Red-Team <span class="sort-icon"></span></th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="jobs-tbody">
+                        <!-- Job rows will be injected here via JS -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="loading-state" class="loading-state">
+                <div class="spinner"></div>
+                <p>Loading jobs...</p>
+            </div>
+
+            <div id="empty-state" class="empty-state hidden">
+                <div class="empty-icon">📁</div>
+                <h3>No jobs found</h3>
+                <p>Try adjusting your search or category filter.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Job Details Modal -->
+    <div class="modal-backdrop hidden" id="job-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <h2 id="modal-job-title">Job Title</h2>
+                    <p id="modal-company-name">Company Name</p>
+                </div>
+                <button class="close-btn" id="close-modal">&times;</button>
+            </div>
+
+            <div class="modal-tabs">
+                <button class="tab-btn active" data-tab="vacancy">Vacancy</button>
+                <button class="tab-btn" data-tab="evaluations">Evaluations</button>
+                <button class="tab-btn" data-tab="resume">Resume</button>
+                <button class="tab-btn" data-tab="cover-letter">Cover Letter</button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Tab contents -->
+                <div class="tab-content active" id="tab-vacancy">
+                    <div class="loading-content"><div class="spinner"></div></div>
+                </div>
+                <div class="tab-content" id="tab-evaluations">
+                    <div class="loading-content"><div class="spinner"></div></div>
+                </div>
+                <div class="tab-content" id="tab-resume">
+                    <div class="loading-content"><div class="spinner"></div></div>
+                </div>
+                <div class="tab-content" id="tab-cover-letter">
+                    <div class="loading-content"><div class="spinner"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

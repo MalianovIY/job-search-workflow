@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "candidate_id": "<candidate-unique-id>",
+  "facts": [
+    {
+      "id": "<FACT-ID-1>",
+      "category": "<category-1>",
+      "topic": "<topic-slug-1>",
+      "statement_en": "<Fact statement in English. Has numeric metrics if applicable.>",
+      "statement_ru": "<Утверждение факта на русском языке.>",
+      "evidence": [
+        {
+          "source": "<source-document-path-1>",
+          "line_range": "<line-range-1>"
+        }
+      ],
+      "allowed_for_generation": true
+    },
+    {
+      "id": "<FACT-ID-2>",
+      "category": "<category-2>",
+      "topic": "<topic-slug-2>",
+      "statement_en": "<Fact statement in English describing experience.>",
+      "statement_ru": "<Утверждение факта на русском языке об опыте.>",
+      "evidence": [
+        {
+          "source": "<source-document-path-2>",
+          "line_range": "<line-range-2>"
+        }
+      ],
+      "allowed_for_generation": true
+    }
+  ]
+}

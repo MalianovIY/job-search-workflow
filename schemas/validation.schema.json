@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "passed",
+    "verified_fact_ids",
+    "unsupported_claims",
+    "qualifier_issues",
+    "date_or_title_issues",
+    "vacancy_alignment_issues",
+    "safe_replacements",
+    "summary"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "passed": {"type": "boolean"},
+    "verified_fact_ids": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "unsupported_claims": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "qualifier_issues": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "date_or_title_issues": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "vacancy_alignment_issues": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "safe_replacements": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "summary": {"type": "string"}
+  }
+}
+

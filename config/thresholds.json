@@ -1,0 +1,23 @@
+{
+  "avg_red_team_trigger": 55,
+  "apply": {
+    "avg_min": 75,
+    "red_team_min": 60
+  },
+  "need_review": {
+    "avg_min": 60,
+    "red_team_min": 45
+  },
+  "hard_blocker_forces_skip": true,
+  "generate_materials_for": [
+    "apply",
+    "need-review"
+  ],
+  "always_generate_cover_letter_draft": true,
+  "max_resume_revisions": 3,
+  "one_page": {
+    "required_pages": 1,
+    "minimum_fill_percent": 97.0,
+    "maximum_free_percent": 3.0
+  }
+}
